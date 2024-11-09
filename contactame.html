@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contáctanos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"> 
+    <link rel="stylesheet" href="segestilo.css">
+<body>
+    <header>
+        <div class="menu"> 
+            <a href="https://reuvenschool.edu.co/" target="_blank" > <img src="descarga.jpg" width="500"> </a>
+            <ul>
+                <a href="index.html" target="_blank" > <li>descripcion</li> </a>
+                <a href="hob.html" target="_blank" > <li>hobbies</li> </a>
+                <a href="contactame.html" target="_blank" > <li>contáctame</li> </a>
+                <link rel="stylesheet" href="estilos.css">
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <form action="/enviar.php" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        
+        <label for="email">Correo electronico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="numero">Numero de tel.:</label><br>
+        <input type="number" id="numero" name="numero" required><br>
+        
+        <label for="mensaje">Petición/queja/sugerencia::</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        <button id="myButton" class="animate__animated">enviar</button>
+        </form>
+        <h2>ubicacion</h2>
+        <div class="ubi">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63622.685721968526!2d-74.15986075818351!3d4.697238335709322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ca931bb3685%3A0x777bc49f16df0ff4!2zRW5nYXRpdsOhLCBCb2dvdMOh!5e0!3m2!1ses!2sco!4v1731119307935!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+            <p>aquí es donde me puedes encontrar</p>
+            <link rel="stylesheet" href="segestilo.css">
+    </main>
+
+    <footer>  
+        <h2>síguenos en nuestras redes sociales</h2>
+        <p>whatsapp: 3206718540</p>
+        <p>ig: Samuel_Giral452</p>
+        <div class="logodos">
+            <img src="descarga.jpg" width="150"> 
+        </div>
+        <p>copyriht Samuel</p> 
+    </footer> 
+</body>
+</html>

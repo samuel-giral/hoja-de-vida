@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+a{
+    font-size: 30px;
+    font-family: "Bebas Neue";
+}
+main{
+    background-color: rgb(99, 185, 255);
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    font-family: "Bebas Neue";
+    font-size: 20px;
+}
+main{
+    font-family: "Bebas Neue";
+    font-size: 20px;
+}
+li{
+    color: rgb(255, 255, 255);
+}
+ul{
+    list-style: none;
+}
+.menu{
+    width: 90%;
+}
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100px;
+    font-family: "Bebas Neue";
+    align-content: center;
+}
+
+.menu a img{
+    width: 180px;
+    vertical-align: middle;
+}
+
+.menu ul{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 30%;
+}
+
+.menu ul a{
+    padding: 5px 20px;
+    border: 3px solid rgb(99, 185, 255);
+    border-radius: 0 5px;
+    transition: 1s;
+}
+
+.menu ul a:hover{
+    background-color: rgb(45, 115, 172);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+h3{
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100px;
+    font-family: "Bebas Neue";
+    align-content: center;
+}
+
+footer p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+}
+
+.logodos{
+    position: relative;
+    left: 44%;     
+}
+
+main h2 {
+    text-align: center;
+}
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#myButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#myButton:hover {
+    background-color: #000000;
+}
+
+.animated {
+    animation-duration: 1s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.animate__animated {
+    animation: bounce infinite;
+}
+
+.ubi {
+    text-align: center;
+    left: 0%;
+}
